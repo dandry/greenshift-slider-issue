@@ -63,6 +63,7 @@ function GSPB_render_Swiper(e, t=document) {
     W = parseInt(gs_swiper_params.breakpoints.tablet) || 768,
     ee = parseInt(gs_swiper_params.breakpoints.mobile) || 576);
     let et = {
+        preloadImages: false,
         spaceBetween: c,
         slidesPerView: a,
         slidesPerGroup: l,
